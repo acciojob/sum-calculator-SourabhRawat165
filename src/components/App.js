@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './../styles/App.css';
-import SumCalculator from "./sum-calculator"
+import SumCalculator from "./SumCalculator";
 
 const App = () => {
   const[sum, setSum] = useState(0)
@@ -15,4 +15,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App
