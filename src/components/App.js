@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import './../styles/App.css';
-import SumCalculator from "./SumCalculator";
+import SumCalculator from "./sum-calculator"
 
 const App = () => {
   const[sum, setSum] = useState(0)
   return (
     <div>
-        {/* Do not remove the main div */}
         <h1>Sum Calculator</h1>
           <input onChange={(e) =>{
             setSum((sum)+(Number(e.target.value)))
